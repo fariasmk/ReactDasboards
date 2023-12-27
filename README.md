@@ -4,4 +4,4 @@
 
 <h3>Tecnologias utilizadas: React, Html, Css, TypeScript</h3>
 
-### Em fase de construção. Em Breve terá fotos do projeto concluido.
+### Em fase de construção. Em Breve terá fotos do projeto concluído.
