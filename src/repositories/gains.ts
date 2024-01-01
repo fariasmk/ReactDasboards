@@ -8,11 +8,12 @@ export default [
   { "description": "Salário",     "amount": "2500.18", "type": "entrada", "frequency": "recorrente", "date": "2023-04-10" }, 
   { "description": "Salário",     "amount": "2500.15", "type": "entrada", "frequency": "recorrente", "date": "2023-05-10" }, 
   { "description": "Salário",     "amount": "2500.12", "type": "entrada", "frequency": "recorrente", "date": "2023-06-10" }, 
-  { "description": "Salário", "amount": "2500.00", "type": "entrada", "frequency": "recorrente", "date": "2023-07-10" },
-  { "description": "Salário", "amount": "2500.00", "type": "entrada", "frequency": "recorrente", "date": "2023-08-10" },
-  { "description": "Salário", "amount": "2500.00", "type": "entrada", "frequency": "recorrente", "date": "2023-09-10" },
+  { "description": "Salário", "amount": "3000.00", "type": "entrada", "frequency": "recorrente", "date": "2023-07-10" },
+  { "description": "Salário", "amount": "3000.00", "type": "entrada", "frequency": "recorrente", "date": "2023-08-10" },
+  { "description": "Salário", "amount": "3000.00", "type": "entrada", "frequency": "recorrente", "date": "2023-09-10" },
   { "description": "Salário", "amount": "2500.00", "type": "entrada", "frequency": "recorrente", "date": "2023-10-10" },
-  { "description": "Salário", "amount": "2500.00", "type": "entrada", "frequency": "recorrente", "date": "2023-11-10" },
-  { "description": "Salário",     "amount": "2500.00", "type": "entrada", "frequency": "recorrente", "date": "2023-12-10" }
+  { "description": "Salário", "amount": "3000.00", "type": "entrada", "frequency": "recorrente", "date": "2023-11-10" },
+  { "description": "Salário", "amount": "3000.00", "type": "entrada", "frequency": "recorrente", "date": "2023-12-10" },
+  // { "description": "Salário",     "amount": "3000.00", "type": "entrada", "frequency": "recorrente", "date": "2024-01-01" }
   ]
   

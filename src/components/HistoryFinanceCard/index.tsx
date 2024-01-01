@@ -11,8 +11,7 @@ interface IHistoryFinanceCaardProps {
 
 const HistoryFinanceCard: React.FC<IHistoryFinanceCaardProps> = ({
     tagColor, title, subtitle, amount
-}) => {
-	return (
+}) => (
         <Container>
             <Tag color={tagColor}/>
             <div>
@@ -21,8 +20,7 @@ const HistoryFinanceCard: React.FC<IHistoryFinanceCaardProps> = ({
             </div>
             <h3>{ amount }</h3>
 			
-		</Container>
-	)
-}
+    </Container>
+)
  
 export default HistoryFinanceCard;
