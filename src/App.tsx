@@ -1,20 +1,20 @@
-import React from "react";
-import { ThemeProvider } from "styled-components";
-import GlobalStyles from "./styles/GlobalStyles";
+import React from 'react';
+import { ThemeProvider } from 'styled-components';
+import GlobalStyles from './styles/GlobalStyles';
 
-import Routes from "./routes";
+import { useTheme } from './hooks/theme';
 
-import dracula from "./styles/themes/dracula";
-import dark from "./styles/themes/dark";
-import light from "./styles/themes/light";
+import Routes from './routes';
 
 const App: React.FC = () => {
+    const { theme } = useTheme();
+
     return (
-        <ThemeProvider theme={dark}>
-            <GlobalStyles/>
-            <Routes/>   
+        <ThemeProvider theme={theme}>
+            <GlobalStyles />
+            <Routes />
         </ThemeProvider>
     );
 }
 
-export default App;         
+export default App;       

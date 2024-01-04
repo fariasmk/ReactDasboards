@@ -1,5 +1,5 @@
 export default [
-  { "description": "Salário",     "amount": "1300.52", "type": "entrada", "frequency": "recorrente", "date": "2023-01-10" }, 
+  { "description": "Salário",     "amount": "1300.52", "type": "entrada", "frequency": "recorrente", "date": "2022-01-10" }, 
   { "description": "Freela",      "amount": "150.13",  "type": "entrada", "frequency": "eventual",   "date": "2023-01-17" }, 
   { "description": "Salário",     "amount": "2500.23", "type": "entrada", "frequency": "recorrente", "date": "2023-02-10" }, 
   { "description": "Freela site", "amount": "900.23",  "type": "entrada", "frequency": "eventual",   "date": "2023-02-21" }, 
@@ -13,7 +13,6 @@ export default [
   { "description": "Salário", "amount": "3000.00", "type": "entrada", "frequency": "recorrente", "date": "2023-09-10" },
   { "description": "Salário", "amount": "2500.00", "type": "entrada", "frequency": "recorrente", "date": "2023-10-10" },
   { "description": "Salário", "amount": "3000.00", "type": "entrada", "frequency": "recorrente", "date": "2023-11-10" },
-  { "description": "Salário", "amount": "3000.00", "type": "entrada", "frequency": "recorrente", "date": "2023-12-10" },
-  // { "description": "Salário",     "amount": "3000.00", "type": "entrada", "frequency": "recorrente", "date": "2024-01-01" }
+  { "description": "Salário", "amount": "3000.00", "type": "entrada", "frequency": "recorrente", "date": "2023-12-10" }
   ]
   

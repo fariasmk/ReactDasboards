@@ -6,7 +6,7 @@ interface ILegendProps {
 
 const animate = keyframes`
     0% {
-        transform: translateX(100px);
+        transform: translateX(-100px);
         opacity: 0;
     }
     50%{

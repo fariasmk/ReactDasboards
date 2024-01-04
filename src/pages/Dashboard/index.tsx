@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, useCallback } from "react";
 
 import { Container, Content } from "./styles";
 
@@ -35,6 +35,7 @@ const Dashboard: React.FC = () => {
                 uniqueYears.push(year);
             }
         });
+        console.log("Unique Years:", uniqueYears);
 
         return uniqueYears.map(year => {
             return {
@@ -294,23 +295,23 @@ const Dashboard: React.FC = () => {
         ];
     },[monthSelected, yearSelected]);
 
-    const handleMonthSelected = (month: string) => {
+    const handleMonthSelected = useCallback((month: string) => {
         try {
             const parseMonth = Number(month);
             setMonthSelected(parseMonth);
         } catch {
             throw new Error('Invalid month value. Is accept 0 - 24.');
         }
-    }
+    }, []);
 
-    const handleYearSelected = (year: string) => {
+    const handleYearSelected = useCallback((year: string) => {
         try {
             const parseYear = Number(year);
             setYearSelected(parseYear);
         } catch {
             throw new Error('Invalid year value. Is accept integer numbers.');
         }
-    }
+    }, []);
 
     return (
         <Container>
